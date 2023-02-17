@@ -4,7 +4,7 @@
 #### Author: Ashwini uppal
 
 [submission PR](https://github.com/ashuppal/api-server/pulls?q=is%3Apr+is%3Aclosed)
-[tests report](https://dashboard.render.com/web/srv-cfndiaarrk0eqlobn06g)
+
 
 #### Setup
 .env requirements
