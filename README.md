@@ -10,7 +10,11 @@
 .env requirements
 PORT - Port Number
 
+#### deployment
 
+![rendor deployment](https://lab04.onrender.com);
+![render deployment -food](https://lab04.onrender.com/food)
+![render deployment - clothes](https://lab04.onrender.com/clothes)
 
 #### Tests
 testing: sqlite in memory database
