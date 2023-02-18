@@ -4,6 +4,7 @@ require('dotenv').config();
 const food = require('./food');
 const clothes = require('./clothes');
 const { Sequelize, DataTypes } = require('sequelize');
+const Collection = require('./data-collection-class');
 
 // we will make testable with memory db
 const DATABASE_URL = process.env.NODE_ENV === 'test' ? 'sqlite::memory' : process.env.DATABASE_URL;
@@ -17,4 +18,6 @@ module.exports = {
   sequelizeDatabase,
   foodModel,
   clothesModel,
+  foodCollection : new Collection(foodModel),
+  clothesCollection : new Collection(clothesModel),
 };

@@ -1,5 +1,5 @@
 'use strict';
-
+//we need collection class to be able to use the methods in the interface to interact with the database cod
 class Collection {
   constructor(model) {
     this.model = model;
@@ -51,7 +51,7 @@ class Collection {
       return e;
     }
   }
-  
+
 }
 
 module.exports = Collection;
